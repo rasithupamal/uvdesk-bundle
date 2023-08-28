@@ -1,0 +1,20 @@
+{
+    "name": "uvdesk/extension-framework",
+    "description": "UVDesk Community Helpdesk Extension Framework Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "akshay kumar",
+            "email": "akshay.kumar758@webkul.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "uvdesk/core-framework": "^1.1"
+    },
+    "autoload": {
+        "psr-4": { "Webkul\\UVDesk\\ExtensionFrameworkBundle\\": "" }
+    },
+    "minimum-stability": "stable"
+}
